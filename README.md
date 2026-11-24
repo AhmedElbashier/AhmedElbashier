@@ -23,6 +23,7 @@ CRMs, payment and messaging APIs, and **VoIP / contact-center platforms** (SIP, 
 |---|---|
 | [webrtc-sip-softphone](https://github.com/AhmedElbashier/webrtc-sip-softphone) | Browser softphone (JsSIP + WebRTC) with a one-command Kamailio + FreeSWITCH lab: echo, IVR, DTMF, hold; 42 unit + 4 real-call Playwright E2E tests in CI |
 | [dotnet-webhook-relay](https://github.com/AhmedElbashier/dotnet-webhook-relay) | ASP.NET Core 8 relay for WhatsApp Cloud API + HubSpot webhooks: signature checks, idempotency, durable retries with Retry-After, dead-letter replay; 45 xUnit tests, Docker smoke test in CI |
+| [dotnet-sip-ops-agent](https://github.com/AhmedElbashier/dotnet-sip-ops-agent) | .NET 8 LLM agent with tool calling over sample SIP/CDR logs: OpenAI-compatible (Ollama), failure summaries, HMAC webhooks; 36 xUnit tests with a mocked LLM, Docker, CI |
 | [dotnet-integration-api-template](https://github.com/AhmedElbashier/dotnet-integration-api-template) | .NET 8 API: typed HttpClient + Polly retries, HMAC-signed webhooks, idempotency, OpenAPI, health checks, 25 xUnit tests, Docker, CI |
 | [asterisk-ari-call-events](https://github.com/AhmedElbashier/asterisk-ari-call-events) | TypeScript service on Asterisk ARI: live call events, config-driven IVR, HTTP + SSE call API, mock mode, docker-compose lab |
 | [nextjs-saas-dashboard-starter](https://github.com/AhmedElbashier/nextjs-saas-dashboard-starter) | Next.js 15 + shadcn/ui admin dashboard: auth-ready layout, data table, charts, Vitest + Playwright, CI |
